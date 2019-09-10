@@ -1,0 +1,26 @@
+**<!-- css color and background color-->** 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	div{
+		color:red;
+		text-align:center;
+		width: 300px;
+		height: 200px;
+		border:1px solid red;
+		background:blue;
+	}
+</style>
+<title>color</title>
+</head>
+<body>
+<div>
+	golubook golubook golubook golubook golubook golubook 
+	golubook golubook golubook 
+</div>
+</body>
+</html>
+
+
+
