@@ -23,4 +23,11 @@
 </html>
 
 
+/* css universal selecter */
+<style>
+*
+{
+background:red;
+color:green;
+}
 
