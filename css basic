@@ -1,3 +1,4 @@
+..................................................
 **<!-- css color and background color-->** 
 <!DOCTYPE html>
 <html>
@@ -22,12 +23,52 @@
 </body>
 </html>
 
-
+...................................................
 /* css universal selecter */
 <style>
 *
 {
 background:red;
 color:green;
+}
+
+......................................................
+h1, h2, p{
+	text-align: center;
+	color:green;
+	border: 1px solid red;
+
+}
+......................................................
+<link rel="stylesheet" type="tetx/css"  href="style.css">  /* link html element to css using  link tag*/
+
+.........................................................................
+/* use of inline css */
+<h1 style="color:red;">Hello World</h1>
+.................................................................
+/* css color borderI*/
+<h1 style="border:2px solid red;
+width: 600px; text-align:center;">Welcome in golubook </h1>
+..................................................................
+/* also  try this code*/
+*
+{
+	background-color: lightpink;
+}
+h1{
+	background-color:pink;
+	width: 300px;
+	height: 100px;
+}
+div
+{
+	background-color: green;
+    width: 300px;
+    height: 100px;
+}
+p{
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
 }
 
