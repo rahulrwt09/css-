@@ -134,3 +134,47 @@ p{
 </div>
 </body>
 </html>
+
+
+............................
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Verticl Navigation</title>
+<style>
+ul{
+  margin: 0;
+  padding: 0;
+  background:#c3d0d9;
+  width: 300px;
+}
+ul a{
+  text-decoration:none;
+  display: block;
+  padding: 15px 20px;
+  color:#000;
+
+}
+ul a.active{
+  background: #4CAF50;
+  color: white;
+}
+ul a:hover:not(.active )
+{
+  background:#555;
+  color:white;
+  font-family: arial;
+  font-weight:bold;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</body>
+</html>
