@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin:0px;
+            padding: 0px;
+        }
+        ul {
+
+           overflow: hidden;
+            width: 100%;
+            list-style-type: none;
+            background-color: rgb(137, 175, 207);
+        }
+        ul li {
+           font-weight: bold;
+           float: left;
+           width: 25%;;
+        }
+        li a{
+            display: block;
+            text-decoration: none;
+            padding: 20px 16px;
+            text-align: center;
+            border-right: 2px solid;
+            
+        }
+        li a:hover{
+            background-color: aqua;
+            color: black;
+        }
+        @media screen and (max-width:400px)
+        {
+           ul.li {
+             float:center;
+
+            }
+        }
+            
+        
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <ul>
+</body>
+
+</html>
